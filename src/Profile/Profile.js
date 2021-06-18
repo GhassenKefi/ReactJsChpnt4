@@ -17,7 +17,7 @@ export default function Profile(props) {
             </div>
             <div>
                 <span className="column">Profession :</span>
-                <h2 className="column">{props.profession}</h2>
+                <h2 className="column" style={{color:"red", textAlign:"center"}}>{props.profession}</h2>
             </div>
             <div>
                 <span className="column">Bio :</span>
